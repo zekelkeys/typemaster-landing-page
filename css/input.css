@@ -17,4 +17,12 @@
     font-weight: 900;
     src: url('../fonts/barlow-v12-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+@theme {
+    --color-blue-950: #162542;
+    --color-gray-100: #E8EFF2;
+    --color-gray-600: #7B8BAD;
+    --color-orange-300: #FF9B62;
+    --color-orange-500: #F16718;
+}
   
