@@ -44,5 +44,13 @@
 
 }
 
-
-
+@layer base {
+    :root {
+        --color-white: #FFFFFF;
+        --color-gray-100: #E8EFF2;
+        --color-gray-600: #7B8BAD;
+        --color-blue-950: #162542;
+        --color-orange-300: #FF9B62;
+        --color-orange-500: #F16718;
+    }
+}
