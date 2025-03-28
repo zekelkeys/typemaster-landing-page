@@ -54,3 +54,20 @@
         --color-orange-500: #F16718;
     }
 }
+
+
+@font-face {
+    font-display: swap; 
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/barlow-v12-latin-500.woff2') format('woff2'); 
+}
+  
+@font-face {
+    font-display: swap; 
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/barlow-v12-latin-900.woff2') format('woff2');
+}
