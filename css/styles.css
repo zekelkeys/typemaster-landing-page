@@ -46,12 +46,19 @@
 
 @layer base {
     :root {
-        --color-white: #FFFFFF;
-        --color-gray-100: #E8EFF2;
-        --color-gray-600: #7B8BAD;
-        --color-blue-950: #162542;
-        --color-orange-300: #FF9B62;
-        --color-orange-500: #F16718;
+        --clr-white:      #FFFFFF;
+        --clr-gray-100:   #E8EFF2;
+        --clr-gray-600:   #7B8BAD;
+        --clr-blue-950:   #162542;
+        --clr-orange-300: #FF9B62;
+        --clr-orange-500: #F16718;
+
+        --color-primary:        var(--clr-white);
+        --color-text-primary:   var(--clr-blue-950);
+        --color-text-secondary: var(--clr-gray-600);
+        --color-bg-primary:     var(--clr-gray-100);
+        --color-accent-primary:       var(--clr-orange-500);
+        --color-accent-primary-hover: var(--clr-orange-300);
     }
 }
 
