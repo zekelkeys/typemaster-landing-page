@@ -45,10 +45,6 @@
 }
 
 @layer root {
-
-}
-
-@layer base {
     :root {
         --clr-white:      #FFFFFF;
         --clr-gray-100:   #E8EFF2;
@@ -66,6 +62,10 @@
 
         --font-family-primary: "Barlow", sans-serif;
     }
+}
+
+@layer base {
+    
 }
 
 
