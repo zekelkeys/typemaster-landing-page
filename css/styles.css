@@ -59,7 +59,13 @@
         --color-bg-primary:     var(--clr-gray-100);
         --color-accent-primary:       var(--clr-orange-500);
         --color-accent-primary-hover: var(--clr-orange-300);
+
+        --font-family-primary: "Barlow", sans-serif;
     }
+}
+
+body {
+    font-family: var(--font-family-primary);
 }
 
 
