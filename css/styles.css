@@ -81,6 +81,11 @@
         font-weight: 900;
         src: url('../fonts/barlow-v12-latin-900.woff2') format('woff2');
     }
+
+    body {
+        font-family: var(--font-family-primary);
+        font-weight: 500;
+    }
 }
 
 
