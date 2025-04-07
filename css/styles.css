@@ -55,8 +55,8 @@
         --clr-orange-500: #F16718;
 
         --color-primary:        var(--clr-white);
-        --color-text-primary:   var(--clr-blue-950);
-        --color-text-secondary: var(--clr-gray-600);
+        --color-text-primary:   var(--clr-gray-600);
+        --color-text-secondary: var(--clr-blue-950);
         --color-bg-primary:     var(--clr-gray-100);
         --color-accent-primary:       var(--clr-orange-500);
         --color-accent-primary-hover: var(--clr-orange-300);
@@ -85,6 +85,8 @@
     body {
         font-family: var(--font-family-primary);
         font-weight: 500;
+        background-color: var(--color-primary);
+        color: var(--color-text-primary);
     }
 }
 
