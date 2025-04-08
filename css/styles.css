@@ -88,6 +88,14 @@
         background-color: var(--color-primary);
         color: var(--color-text-primary);
     }
+
+    h1,
+    h2,
+    h3 {
+        color: var(--color-text-secondary);
+        font-weight: 900;
+        text-transform: uppercase;
+    }
 }
 
 
