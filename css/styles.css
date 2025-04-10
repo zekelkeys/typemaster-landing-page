@@ -58,8 +58,8 @@
         --color-secondary: var(--clr-blue-950);
         --color-text-primary: var(--clr-gray-600);
         --color-bg-primary: var(--clr-gray-100);
-        --color-accent-primary:       var(--clr-orange-500);
-        --color-accent-primary-hover: var(--clr-orange-300);
+        --color-accent:       var(--clr-orange-500);
+        --color-accent-hover: var(--clr-orange-300);
 
         --font-family-primary: "Barlow", sans-serif;
     }
@@ -147,7 +147,7 @@
         width: 9.375rem;
         height: 3rem;
         text-decoration: none;
-        border-radius: 8px;
+        border-radius: 0.5rem;
         @media (width >= 69.375rem) {
             width: 10.938rem;
             height: 3.625rem;
@@ -164,11 +164,20 @@
     }
 
     .button-secondary {
-        background-color: var(--color-accent-primary);
+        background-color: var(--color-accent);
         color: var(--color-primary);
         &:hover {
-            background-color: var(--color-accent-primary-hover);
+            background-color: var(--color-accent-hover);
         }
+    }
+
+    .icons {
+        display: grid;
+        place-items: center;
+        width: 4.063rem;
+        height: 4.063rem;
+        background-color: var(--color-accent);
+        border-radius: 1rem;
     }
     
 }
