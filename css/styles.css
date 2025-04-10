@@ -73,6 +73,16 @@
         font-weight: 500;
         src: url('../fonts/barlow-v12-latin-500.woff2') format('woff2'); 
     }
+
+ 
+    @font-face {
+        font-display: swap;
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 700;
+        src: url('../fonts/barlow-v12-latin-700.woff2') format('woff2'); 
+    }
+  
       
     @font-face {
         font-display: swap; 
@@ -97,6 +107,13 @@
         text-transform: uppercase;
     }
 
+    p,
+    a,
+    span {
+        font-size: 1rem;
+        line-height: 1.625rem;
+    }
+
     h1 {
         font-size: 3rem;
         @media (width >= 69.375rem) {
@@ -114,12 +131,10 @@
         line-height: 1.75rem;
     }
 
-    p,
-    a,
     span {
-        font-size: 1rem;
-        line-height: 1.625rem;
+        font-weight: 700;
     }
+    
 }
 
 
