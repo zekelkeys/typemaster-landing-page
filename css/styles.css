@@ -54,10 +54,10 @@
         --clr-orange-300: #FF9B62;
         --clr-orange-500: #F16718;
 
-        --color-primary:        var(--clr-white);
-        --color-text-primary:   var(--clr-gray-600);
-        --color-text-secondary: var(--clr-blue-950);
-        --color-bg-primary:     var(--clr-gray-100);
+        --color-primary:   var(--clr-white);
+        --color-secondary: var(--clr-blue-950);
+        --color-text-primary: var(--clr-gray-600);
+        --color-bg-primary: var(--clr-gray-100);
         --color-accent-primary:       var(--clr-orange-500);
         --color-accent-primary-hover: var(--clr-orange-300);
 
@@ -102,7 +102,7 @@
     h2,
     h3 {
         font-weight: 900;
-        color: var(--color-text-secondary);
+        color: var(--color-secondary);
     }
 
     p,
@@ -118,9 +118,9 @@
     }
 
     body {
+        background-color: var(--color-primary);
         font-family: var(--font-family-primary);
         font-weight: 500;
-        background-color: var(--color-primary);
         color: var(--color-text-primary);
     }
 
@@ -151,6 +151,15 @@
         @media (width >= 69.375rem) {
             width: 10.938rem;
             height: 3.625rem;
+        }
+    }
+
+    .button-primary {
+        background-color: var(--color-bg-primary);
+        color: var(--color-secondary);
+        &:hover {
+            background-color: var(--color-secondary);
+            color: var(--color-primary);
         }
     }
     
