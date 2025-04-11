@@ -8,7 +8,7 @@
 	<title>Frontend Mentor | Typemaster pre-launch landing page</title>
 </head>
 <body>
-	<header class="header">
+	<header class="header wrapper">
 		<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
 			<g fill="none" fill-rule="evenodd">
 				<path fill="#F16718" d="M0 0h40v40H0z"/>
@@ -19,14 +19,31 @@
 	</header>
 
 	<main>
-		<section>
-			<h1>Typemaster keyboard</h1>
-			<p>
-				Improve your productivity and gaming without breaking the bank. Upgrade to a high quality 
-				mechanical typing experience.
-			</p>
-			<a class="button-secondary" href="">Pre-order now</a>
-			<span>Release on 5/27</span>
+		<section class="hero">
+			<div class="hero__inner">
+				<h1>Typemaster <br> keyboard</h1>
+				<p>
+					Improve your productivity and gaming without breaking the bank. Upgrade to a high quality 
+					mechanical typing experience.
+				</p>
+
+				<div>
+					<a class="button-secondary" href="">Pre-order now</a>
+					<span>Release on 5/27</span>
+				</div>
+			</div>
+			<picture>
+				<source 
+					srcset="assets/desktop/image-keyboard.jpg" 
+					media="(min-width: 1110px)">
+				<source 
+					srcset="assets/tablet/image-keyboard.jpg" 
+					media="(min-width: 768px)">
+				<img 
+					class="hero__image"
+				  	src="assets/mobile/image-keyboard.jpg" 
+				  	alt="Typemaster Keyboard">
+			  </picture>
 		</section>
 
 		<section  >
