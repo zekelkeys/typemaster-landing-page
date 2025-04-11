@@ -125,17 +125,10 @@ body {
     font-family: var(--font-family-primary);
     font-weight: 500;
     color: var(--color-text-primary);
-    @media (width >= 48rem) {
-        padding-left: 2.5rem;
-        padding-right: 2.5rem;
-    }
 }
 
 h1 {
     font-size: 3rem;
-    @media (width >= 69.375rem) {
-        font-size: 3.5rem;
-    }
 }
 
 h2 {
@@ -155,10 +148,6 @@ a {
     height: 3rem;
     text-decoration: none;
     border-radius: 0.5rem;
-    @media (width >= 48rem) {
-        width: 10.938rem;
-        height: 3.625rem;
-    }
 }
 
 .header {
@@ -166,12 +155,6 @@ a {
     align-items: center;
     justify-content: space-between;
     margin-top: 1.5rem;
-    @media (width >= 48rem) {
-        margin-top: 2.5rem;
-    }
-    @media (width >= 69.375rem) {
-        margin-top: 3.5rem;
-    }
 }
 
 .button-primary {
@@ -202,3 +185,32 @@ a {
 
 
 
+
+
+
+
+@media (width >= 48rem) {
+    body {
+        padding-left:  2.5rem;
+        padding-right: 2.5rem;
+    }
+
+    a {
+        width: 10.938rem;
+        height: 3.625rem;
+    }
+
+    .header { 
+        margin-top: 3.5rem;
+    }
+}
+
+@media (width >= 69.375rem) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .header { 
+        margin-top: 2.5rem;
+    }
+}
