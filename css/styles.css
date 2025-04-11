@@ -65,7 +65,7 @@
     }
 }
 
-@layer base {
+@layer font-face {
     @font-face {
         font-display: swap; 
         font-family: 'Barlow';
@@ -89,103 +89,116 @@
         font-weight: 900;
         src: url('../fonts/barlow-v12-latin-900.woff2') format('woff2');
     }
-
-    h1,
-    h2,
-    h3,
-    a, 
-    span {
-        text-transform: uppercase;
-    }
-
-    h1,
-    h2,
-    h3 {
-        font-weight: 900;
-        color: var(--color-secondary);
-    }
-
-    p,
-    a,
-    span {
-        font-size: 1rem;
-        line-height: 1.625rem;
-    }
-
-    a,
-    span {
-        font-weight: 700;
-    }
-
-    body {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-        background-color: var(--color-primary);
-        font-family: var(--font-family-primary);
-        font-weight: 500;
-        color: var(--color-text-primary);
-        @media (width >= 48rem) {
-            padding-left: 2.5rem;
-            padding-right: 2.5rem;
-        }
-    }
-
-    h1 {
-        font-size: 3rem;
-        @media (width >= 69.375rem) {
-          font-size: 3.5rem;
-        }
-    }
-
-    h2 {
-      font-size: 2rem;
-      line-height: 2.25rem;  
-    }
-
-    h3 {
-        font-size: 1.5rem;
-        line-height: 1.75rem;
-    }
-
-    a {
-        display: grid;
-        place-items: center;
-        width: 9.375rem;
-        height: 3rem;
-        text-decoration: none;
-        border-radius: 0.5rem;
-        @media (width >= 48rem) {
-            width: 10.938rem;
-            height: 3.625rem;
-        }
-    }
-
-    .button-primary {
-        background-color: var(--color-bg-primary);
-        color: var(--color-secondary);
-        &:hover {
-            background-color: var(--color-secondary);
-            color: var(--color-primary);
-        }
-    }
-
-    .button-secondary {
-        background-color: var(--color-accent);
-        color: var(--color-primary);
-        &:hover {
-            background-color: var(--color-accent-hover);
-        }
-    }
-
-    .icons {
-        display: grid;
-        place-items: center;
-        width: 4.063rem;
-        height: 4.063rem;
-        background-color: var(--color-accent);
-        border-radius: 1rem;
-    }
-    
 }
+
+h1,
+h2,
+h3,
+a, 
+span {
+    text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+    color: var(--color-secondary);
+}
+
+p,
+a,
+span {
+    font-size: 1rem;
+    line-height: 1.625rem;
+}
+
+a,
+span {
+    font-weight: 700;
+}
+
+body {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: var(--color-primary);
+    font-family: var(--font-family-primary);
+    font-weight: 500;
+    color: var(--color-text-primary);
+    @media (width >= 48rem) {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+}
+
+h1 {
+    font-size: 3rem;
+    @media (width >= 69.375rem) {
+        font-size: 3.5rem;
+    }
+}
+
+h2 {
+    font-size: 2rem;
+    line-height: 2.25rem;  
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+a {
+    display: grid;
+    place-items: center;
+    width: 9.375rem;
+    height: 3rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    @media (width >= 48rem) {
+        width: 10.938rem;
+        height: 3.625rem;
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    @media (width >= 48rem) {
+        margin-top: 2.5rem;
+    }
+    @media (width >= 69.375rem) {
+        margin-top: 3.5rem;
+    }
+}
+
+.button-primary {
+    background-color: var(--color-bg-primary);
+    color: var(--color-secondary);
+    &:hover {
+        background-color: var(--color-secondary);
+        color: var(--color-primary);
+    }
+}
+
+.button-secondary {
+    background-color: var(--color-accent);
+    color: var(--color-primary);
+    &:hover {
+        background-color: var(--color-accent-hover);
+    }
+}
+
+.icons {
+    display: grid;
+    place-items: center;
+    width: 4.063rem;
+    height: 4.063rem;
+    background-color: var(--color-accent);
+    border-radius: 1rem;
+}
+
 
 
