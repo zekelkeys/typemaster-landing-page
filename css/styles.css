@@ -186,6 +186,10 @@ a {
     position: relative;
     padding-left: 24px;
 }
+    .hero__paragraph {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
     .hero__image {
         border-radius: 1.25rem 0 0 1.25rem;
     }
@@ -217,9 +221,11 @@ a {
     .hero {
         display: flex;
         gap: 69px;
-
-        padding-left: 40px;
+        padding-left: 2.5rem;
     }
+        .hero__paragraph {
+            margin-bottom: 2.5rem;
+        }
 }
 
 @media (width >= 69.375rem) {
@@ -235,9 +241,11 @@ a {
     .hero {
         display: flex;
         gap: 69px;
-
-        padding-right: 40px;
+        padding-right: 2.5rem;
     }
+        .hero__paragraph {
+            margin-top: 1.5rem;
+        }
         .hero__image {
             border-radius: 1.25rem;
         }
