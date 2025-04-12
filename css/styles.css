@@ -35,6 +35,10 @@
     select {
         font: inherit;
     }
+
+    img {
+        display: block;
+    }
 }
 
 @layer root {
@@ -181,7 +185,7 @@ a {
 }
     .hero__inner {
         padding-right: 1.5rem;
-        max-width: 380px;
+        max-width: 23.75rem;
     }
     .hero__paragraph {
         margin-top: 2rem;
@@ -195,10 +199,38 @@ a {
         margin-bottom: 4rem;
     }
     .hero__image {
-        display: block;
         width: 100%;
         border-radius: 1.25rem 0 0 1.25rem;
     }
+
+.secondary-section {
+    padding-right: 1.5rem;
+}
+
+.images {
+    display: flex;
+    gap: 1.5rem;
+    
+}
+    .images__orange {
+        width: 100%;
+        border-radius: 0 1.25rem 1.25rem 0;
+    }
+    .images__clear {
+        width: 100%;
+        border-radius: 1.25rem;
+    }
+
+.mechanical {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 4.5rem;
+    padding-left: 1.5rem;
+    text-align: center;
+}
+
+
 
 .icons {
     display: grid;
@@ -252,6 +284,28 @@ a {
             right: -9.625rem;
             width: 29.875rem;
         }
+
+    .secondary-section {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+    
+    .images {
+        gap: 1.875rem;
+        
+    }
+        .images__orange {
+            border-radius: 1.25rem;
+        }
+
+    .mechanical {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 6rem;
+        padding-left: 0;
+        text-align: left;
+    }
 }
 
 @media (width >= 69.375rem) {
@@ -282,6 +336,21 @@ a {
             width: 33.75rem;
             border-radius: 1.25rem;
         }
+
+    .secondary-section {
+        display: flex;
+        align-items: center;
+        gap: 7.813rem;
+    }
+
+    .mechanical {
+        align-items: initial;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1.5rem;
+        max-width: 15.938rem;
+        margin-top: 0;
+    }
 }
 
 
