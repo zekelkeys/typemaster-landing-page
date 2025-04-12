@@ -241,8 +241,7 @@ a {
 
 @media (width >= 30rem) {
     .hero__image {
-        margin-right: 1.5rem;
-        border-radius: 1.25rem;
+        padding-right: 1.5rem;
     }
 }
 
@@ -288,8 +287,7 @@ a {
             top: 0;
             right: -9.625rem;
             width: 29.875rem;
-            margin-right: 0;
-            border-radius: 1.25rem 0 0 1.25rem;
+            padding-right: 0;
         }
 
     .secondary-section {
