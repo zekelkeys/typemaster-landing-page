@@ -243,6 +243,10 @@ a {
     .hero__image {
         padding-right: 1.5rem;
     }
+
+    .secondary-section {
+        padding-left: 1.5rem;
+    }
 }
 
 @media (width >= 48rem) {
