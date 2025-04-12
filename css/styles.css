@@ -230,8 +230,6 @@ a {
     text-align: center;
 }
 
-
-
 .icons {
     display: grid;
     place-items: center;
@@ -239,6 +237,13 @@ a {
     height: 4.063rem;
     background-color: var(--color-accent);
     border-radius: 1rem;
+}
+
+@media (width >= 30rem) {
+    .hero__image {
+        margin-right: 1.5rem;
+        border-radius: 1.25rem;
+    }
 }
 
 @media (width >= 48rem) {
@@ -283,6 +288,8 @@ a {
             top: 0;
             right: -9.625rem;
             width: 29.875rem;
+            margin-right: 0;
+            border-radius: 1.25rem 0 0 1.25rem;
         }
 
     .secondary-section {
