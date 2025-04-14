@@ -212,10 +212,17 @@ a {
     gap: 1.5rem;
     
 }
-    .images__orange {
-        width: 100%;
+
+    .images__orange-wrapper {
+        background-color: var(--color-accent);  
         border-radius: 0 1.25rem 1.25rem 0;
     }
+        .images__orange {
+            width: 100%;
+            mix-blend-mode: multiply;
+            opacity: 0.75;
+            border-radius: 0 1.25rem 1.25rem 0;
+        }
     .images__clear {
         width: 100%;
         border-radius: 1.25rem;
@@ -303,6 +310,7 @@ a {
         gap: 1.875rem;
         
     }
+        .images__orange-wrapper,
         .images__orange {
             border-radius: 1.25rem;
         }
@@ -361,6 +369,3 @@ a {
         margin-top: 0;
     }
 }
-
-
-
