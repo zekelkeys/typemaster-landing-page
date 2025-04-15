@@ -237,6 +237,10 @@ a {
     text-align: center;
 }
 
+.features-section {
+    margin-top: 7rem;
+}
+
 .icons {
     display: grid;
     place-items: center;
@@ -323,6 +327,10 @@ a {
         padding-left: 0;
         text-align: left;
     }
+
+    .features-section {
+        margin-top: 8.875rem;
+    }
 }
 
 @media (width >= 69.375rem) {
@@ -367,5 +375,9 @@ a {
         gap: 1.5rem;
         max-width: 15.938rem;
         margin-top: 0;
+    }
+
+    .features-section {
+        margin-top: 10.5rem;
     }
 }
