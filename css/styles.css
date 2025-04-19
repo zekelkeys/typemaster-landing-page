@@ -147,6 +147,12 @@ a {
     border-radius: 0.5rem;
 }
 
+footer {
+    margin-top: 8.875rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
 .wrapper {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -280,6 +286,11 @@ a {
     a {
         width: 10.938rem;
         height: 3.625rem;
+    }
+
+    footer {
+        margin-top: 8rem;
+        margin-bottom: 2.5rem;
     }
 
     .wrapper {
