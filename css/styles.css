@@ -373,11 +373,32 @@ footer {
 
 @media (width >= 69.375rem) {
     body {
+        position: relative;
         max-width: 74.375rem;
     }
 
     h1 {
         font-size: 3.5rem;
+    }
+
+    .object--one,
+    .object--two {
+        position: absolute;
+        width: 8.438rem;
+        height: 15rem;
+        background: var(--color-bg-primary);
+    }
+
+    .object--one {
+        right: -8.438rem;
+        top: 8.625rem;
+        border-radius: 1.25rem 0 0 1.25rem;
+    }
+
+    .object--two {
+        left: -8.438rem;
+        top: 55.625rem;
+        border-radius: 0 1.25rem 1.25rem 0;
     }
 
     .header { 
