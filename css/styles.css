@@ -49,14 +49,12 @@
         --clr-blue-950:   #162542;
         --clr-orange-300: #FF9B62;
         --clr-orange-500: #F16718;
-
         --color-primary:   var(--clr-white);
         --color-secondary: var(--clr-blue-950);
         --color-text-primary: var(--clr-gray-600);
         --color-bg-primary: var(--clr-gray-100);
         --color-accent:       var(--clr-orange-500);
         --color-accent-hover: var(--clr-orange-300);
-
         --font-family-primary: "Barlow", sans-serif;
     }
 }
